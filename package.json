@@ -1,0 +1,40 @@
+{
+  "name": "vea-template-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vea dev",
+    "build:dev": "vea build dev",
+    "deploy:dev": "vea deploy dev",
+    "build:beta": "vea build beta",
+    "deploy:beta": "vea deploy beta",
+    "build:master": "vea build master",
+    "deploy:master": "vea deploy master",
+    "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src",
+    "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@aev/vue": "latest",
+    "@aev/http": "latest",
+    "element-ui": "latest",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "husky": "^1.3.1",
+    "vea": "latest",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
