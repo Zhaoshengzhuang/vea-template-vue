@@ -1,9 +1,6 @@
 <template>
   <div>
-    <img
-      src="@/assets/logo.png"
-      alt=""
-    >
+    <div> 赵胜壮</div>
   </div>
 </template>
 
